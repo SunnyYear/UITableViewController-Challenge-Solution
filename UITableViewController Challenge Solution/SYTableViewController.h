@@ -1,5 +1,5 @@
 //
-//  SYViewController.h
+//  SYTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Marco on 03/05/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SYViewController : UIViewController
+@interface SYTableViewController : UITableViewController
 
 @end

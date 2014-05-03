@@ -14,13 +14,13 @@
 		A9085D9A1915562F00A4925E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9085D991915562F00A4925E /* main.m */; };
 		A9085D9E1915562F00A4925E /* SYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9085D9D1915562F00A4925E /* SYAppDelegate.m */; };
 		A9085DA11915562F00A4925E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9085D9F1915562F00A4925E /* Main.storyboard */; };
-		A9085DA41915562F00A4925E /* SYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9085DA31915562F00A4925E /* SYViewController.m */; };
 		A9085DA61915562F00A4925E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9085DA51915562F00A4925E /* Images.xcassets */; };
 		A9085DAD1915562F00A4925E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9085DAC1915562F00A4925E /* XCTest.framework */; };
 		A9085DAE1915562F00A4925E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9085D8D1915562F00A4925E /* Foundation.framework */; };
 		A9085DAF1915562F00A4925E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9085D911915562F00A4925E /* UIKit.framework */; };
 		A9085DB71915562F00A4925E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9085DB51915562F00A4925E /* InfoPlist.strings */; };
 		A9085DB91915562F00A4925E /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9085DB81915562F00A4925E /* UITableViewController_Challenge_SolutionTests.m */; };
+		A9085DC71915601B00A4925E /* SYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9085DC61915601B00A4925E /* SYTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		A9085D9C1915562F00A4925E /* SYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYAppDelegate.h; sourceTree = "<group>"; };
 		A9085D9D1915562F00A4925E /* SYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYAppDelegate.m; sourceTree = "<group>"; };
 		A9085DA01915562F00A4925E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A9085DA21915562F00A4925E /* SYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYViewController.h; sourceTree = "<group>"; };
-		A9085DA31915562F00A4925E /* SYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYViewController.m; sourceTree = "<group>"; };
 		A9085DA51915562F00A4925E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A9085DAB1915562F00A4925E /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9085DAC1915562F00A4925E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A9085DB41915562F00A4925E /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		A9085DB61915562F00A4925E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A9085DB81915562F00A4925E /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		A9085DC51915601B00A4925E /* SYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTableViewController.h; sourceTree = "<group>"; };
+		A9085DC61915601B00A4925E /* SYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				A9085D9C1915562F00A4925E /* SYAppDelegate.h */,
 				A9085D9D1915562F00A4925E /* SYAppDelegate.m */,
 				A9085D9F1915562F00A4925E /* Main.storyboard */,
-				A9085DA21915562F00A4925E /* SYViewController.h */,
-				A9085DA31915562F00A4925E /* SYViewController.m */,
+				A9085DC51915601B00A4925E /* SYTableViewController.h */,
+				A9085DC61915601B00A4925E /* SYTableViewController.m */,
 				A9085DA51915562F00A4925E /* Images.xcassets */,
 				A9085D941915562F00A4925E /* Supporting Files */,
 			);
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9085DA41915562F00A4925E /* SYViewController.m in Sources */,
+				A9085DC71915601B00A4925E /* SYTableViewController.m in Sources */,
 				A9085D9E1915562F00A4925E /* SYAppDelegate.m in Sources */,
 				A9085D9A1915562F00A4925E /* main.m in Sources */,
 			);
